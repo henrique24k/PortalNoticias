@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+
+
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    font-size: 15px;
+    color: #122f51;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras{
+    position: absolute;
+    bottom: -1100px;
+    right: -300px;
+    width: 700px;
+    height: 1400px;
+    border-radius: 10px;
+    background-color: #122f51;
+}
+
+.imgprincipal{
+    position: absolute;
+    right: -250px;
+    top: 100px;
+}
+
+.imgprincipal img{
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    opacity: 1;
+    box-shadow: #000000 5px 5px 5px 5px;
+}
+
+.imgprincipal img:hover{
+    opacity: 0.5;
+}
+
+.txtprincipal{
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    width: 30%;
+    
+}
+
+.txt{
+    font-size: 0.5rem;
+    color: #ffffff;
+    width: 30%;
+}
+
+.social-media{
+    position: absolute;
+    right: -150px;
+    top: 200px;
+}
+
+.social-media img{
+    width: 6%;
+    display: block;
+    margin: 20px 0;
+}
+
+.txtsobre{
+    margin-top: 20px;
+    margin-right: 255px;
+}
+
+.txtsobre h1{
+    font-size: 25px;
+}
+
+.txtsobre p{
+    margin: 20px 0;
+    margin-right: 50px;
+    color: #000000;
+    font-size: 14px;
+    max-width: 800px;
+}
+
+.manchete{
+    display: block;
+    padding: 0 2%;
+    width: 70%;
+}
+
+.manchete img{
+    border-radius: 10px;
+}
+
+.manchete h2{
+    width: 80%;
+    color: red;
+}
+
+.manchete h2:hover{
+    text-shadow: #000000 0.5px 0.5px;
+}
+
+.manchete p{
+    width: 80%;
+}
+
+footer{
+    margin-top: 125%;
+    background-color: #122f51;
+    height: 20%;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.geraldo{
+    width: 10%;
+    height: 10%;
+}
